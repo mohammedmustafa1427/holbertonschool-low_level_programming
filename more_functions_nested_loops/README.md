@@ -1,1 +1,1 @@
-this is the more functions shell
+this is the more functions directory
