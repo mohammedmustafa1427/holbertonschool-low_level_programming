@@ -1,7 +1,7 @@
 
 
 /*
- * -isupper - checks for uppercase character
+ * _isupper - checks for uppercase character
  * @c: the character to be checked
  *
  * return: 1 if c it uppercase ,0 otherwise
