@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_line - drow a stright line in the terminal
  * @n: the number of time character _ should be printed
@@ -10,7 +11,7 @@ void print_line(int n)
 	int i;
 	if (n > 0)
 	{
-		for (i > 0; n > i; i++)
+		for (i = 0; i < n; i++)
 		{
 			_putchar('_');
 		}
