@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * print_line - drow a stright line in the terminal
+ * @n: the number of time character _ should be printed
+ *
+ * Return: void
+ */
+void print_line(int n)
+{
+	int i;
+	if (n > 0)
+	{
+		for (i > 0; n > i; i++)
+		{
+			_putchar('_');
+		}
+	}
+	_putchar('\n');
+}
