@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - count every min 
+ * jack_bauer - count every min
  * Return: always last dight
  */
 void jack_bauer(void)
