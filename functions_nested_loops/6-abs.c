@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign - check the number
- * @n: the character to check
+ * _abs - check the absolute value
+ * @n: the number to check
  *
- * Return: 1 if n is greater than 0, 0 if n is 0, -1 if n lower than 0
+ * Return: n if greater or equal to 0, -1 * n otherwise
  */
 int _abs(int n)
 {
