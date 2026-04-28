@@ -21,7 +21,6 @@ char *cap_string(char *str)
 			else
 			{
 				j = 0;
-				
 				while (sep[j] != '\0')
 				{
 					if (str[i - 1] == sep[j])
@@ -29,8 +28,8 @@ char *cap_string(char *str)
 						str[i] = str[i] - 32;
 						break;
 					}
+					j++;
 				}
-				j++;
 			}
 		}
 		i++;
