@@ -1,16 +1,21 @@
 #include "main.h"
 
 /**
- * factorial - returns the factorial of a given number.
- * @n: the number to calculate the factorial of.
+ * _pow_recursion - returns the value of x raised to the power of y.
+ * @x: the base value.
+ * @y: the exponent value.
  *
- * Return: factorial of n, or -1 if n is lower than 0.
+ * Return: the result of x^y, or -1 if y is lower than 0.
  */
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-	if (n < 0)
+	if (y < 0)
+	{
 		return (-1);
-	if (n == 0)
+	}
+	if (y == 0)
+	{
 		return (1);
-	return (n * factorial(n - 1));
+	}
+	return (x * _pow_recursion(x, y - 1));
 }
